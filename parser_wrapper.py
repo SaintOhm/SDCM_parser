@@ -6,7 +6,7 @@ N_SAMPLES = 60
 LOCK_INFO = threading.Lock()
 STOP_UPD  = threading.Event()
 STOP_WR   = threading.Event()
-URL    = 'https://sdcm.ru/%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8C/get.php?uid=2&bid=2&dt=0101-01-01'
+URL       = 'https://sdcm.ru/%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8C/get.php?uid=2&bid=2&dt=0101-01-01'
 STATIONS_INFO = {
     'Минск':           {'staId':'57', 'rcvId': '91'},
     'Иркутск':         {'staId':'86', 'rcvId':'172'},
