@@ -7,6 +7,6 @@
 4. Открыть результат в лаба.xlsx.
 
 ### Установка библиотек
-1. Win+R
+1. Нажимаете `Win+R`
 2. Вводите `cmd`
 3. Вводите `pip install requests pandas openpyxl`
