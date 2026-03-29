@@ -8,5 +8,5 @@
 
 ### Установка библиотек
 1. Win+R
-2. cmd
-3. Прописываете `pip install requests pandas openpyxl`
+2. Вводите `cmd`
+3. Вводите `pip install requests pandas openpyxl`
