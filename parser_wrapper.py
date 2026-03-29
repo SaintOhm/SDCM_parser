@@ -59,8 +59,8 @@ def updater():
             info = {name: [] for name in STATIONS_INFO} # {k:[], ...}
             for station in data['corrections']:
                 ok, name = isMyStation(station)
-                if ok: info[name].append(station)  # {k:[{}, ...], ...}
-            info = { # {k:{}, ...}
+                if ok: info[name].append(station)  # {k:[{k:'', ...}, ...], ...}
+            info = { # {k:{k:'', ...}, ...}
                 k: max(v, key=lambda x: x['gpsTime']) if v else {}
                 for k, v in info.items()
             }
