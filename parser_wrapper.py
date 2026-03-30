@@ -90,9 +90,6 @@ def updater():
         except requests.exceptions.HTTPError as e:
             myprint(f'Ошибка сервера (код {response.status_code}): {e}', 'red')
             STOP_WR.clear()
-        except ValueError:
-            myprint('Ошибка: Сервер прислал не JSON', 'red')
-            STOP_WR.clear()
         except Exception as e:
             myprint(f'Ошибка: {e}', 'red')
             STOP_WR.clear()
